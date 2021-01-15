@@ -1,0 +1,71 @@
+/* Variables */
+:root {
+    /* https://coolors.co/1f3466-30509c-ee9958-e97824-df6d16 */
+    --navy: #1f3466;
+    --navy2: #30509c;
+    --orange: #e97824;
+}
+
+/* Navigation Bar */
+ul.navBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: fit-content;
+    float: right;
+    background-color: var(--navy);
+}
+  
+li.navBar {
+    float: left;
+}
+  
+li.navBar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+}
+  
+li.navBar a:hover {
+    background: linear-gradient(to top, var(--navy2) 50%, var(--navy) 50%) bottom;
+    background-size: 100% 200%;
+    transition: .2s ease-in-out;
+}
+
+/* Header */
+.headerPhoto {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    position: absolute;
+    padding: 0%;
+    z-index: -1;
+}
+
+html,body {
+    padding:0; margin:0;
+}
+
+.pageTitle {
+    color: var(--orange);
+    font-family: 'Jost', sans-serif;
+    font-weight: 800;
+    padding-left: 20px;
+    padding-top: 25vh;
+    text-shadow: 1px 1px #fff;
+}
+
+.bodyText {
+    padding: 15px 5vw;
+}
+
+h2 {
+    color: var(--navy);
+    font-family: 'Jost', sans-serif;
+    font-weight: 800;
+}
