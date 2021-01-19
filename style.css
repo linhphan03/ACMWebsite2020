@@ -1,9 +1,10 @@
 /* Variables */
 :root {
-    /* https://coolors.co/1f3466-30509c-ee9958-e97824-df6d16 */
+    /* https://coolors.co/130902-22386d-e0e8f5-f7d3b6-ffffff */
+    --black: #130902;
     --navy: #1f3466;
-    --navy2: #30509c;
-    --orange: #e97824;
+    --icy: #E0E8F5;
+    --peach: #F7D3B6;
 }
 
 /* Navigation Bar */
@@ -32,7 +33,7 @@ li.navBar a {
 }
   
 li.navBar a:hover {
-    background: linear-gradient(to top, var(--navy2) 50%, var(--navy) 50%) bottom;
+    background: linear-gradient(to top, var(--icy) 50%, var(--navy) 50%) bottom;
     background-size: 100% 200%;
     transition: .2s ease-in-out;
 }
@@ -52,7 +53,7 @@ html,body {
 }
 
 .pageTitle {
-    color: var(--orange);
+    color: var(--black);
     font-family: 'Jost', sans-serif;
     font-weight: 800;
     padding-left: 20px;
@@ -91,7 +92,7 @@ h2 {
   height: 15px;
 }
 .slides::-webkit-scrollbar-thumb {
-  background: var(--orange);
+  background: var(--icy);
 }
 .slides::-webkit-scrollbar-track {
   background: var(--navy);
