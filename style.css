@@ -47,6 +47,7 @@ li.navBar a:hover {
     position: absolute;
     padding: 0%;
     z-index: -1;
+    filter: opacity(80%);
 }
 .header {
   height: 200px;
