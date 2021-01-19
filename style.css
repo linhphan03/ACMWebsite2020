@@ -76,7 +76,7 @@ h2 {
   width: 90%;
   text-align: center;
   overflow: hidden;
-  padding: 15px 5vw;
+  padding: 15px 5%;
 }
 
 .slides {
@@ -101,7 +101,6 @@ h2 {
   flex-shrink: 0;
   width: 100%;
   height: 300px;
-  margin-right: 50px;
   border-radius: 10px;
   background: #eee;
   transform-origin: center center;
@@ -133,16 +132,30 @@ img {
   justify-content: center;
   position: relative;
 }
+
 .slider > a:active {
   top: 1px;
 }
+
 .slider > a:focus {
   background: #000;
 }
 
 footer {
-  text-align: center;
-  padding: 5px;
+  padding: 20px 0px;
   background-color: var(--navy);
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer a {
   color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: var(--orange);
+  text-decoration: none;
 }
