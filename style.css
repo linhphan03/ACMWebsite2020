@@ -80,14 +80,27 @@ html,body {
     text-shadow: 1px 1px #fff;
 }
 
+h2 {
+  color: var(--navy);
+  font-family: 'Jost', sans-serif;
+  font-weight: 800;
+}
+
+p, body {
+font-family: 'Montserrat', sans-serif;;
+}
+
 .bodyText {
     padding: 15px 5vw;
 }
 
-h2 {
-    color: var(--navy);
-    font-family: 'Jost', sans-serif;
-    font-weight: 800;
+.peach {
+  background-color: var(--peach);
+ 
+}
+
+.peach h2 {
+  color: white;
 }
 
 /* Carousel */
@@ -110,7 +123,7 @@ h2 {
   height: 15px;
 }
 .slides::-webkit-scrollbar-thumb {
-  background: var(--icy);
+  background: var(--peach);
   border-radius: 25px;
 }
 .slides::-webkit-scrollbar-track {
