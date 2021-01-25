@@ -222,7 +222,8 @@ footer a:hover {
 
 .homeHeader {
   background-image: url("images/glatfelter.jpg");
-  height: 500; 
+  min-height: 500; 
+  height: fit-content;
   width: 100%;
   background-size: cover;
   text-align: center;
@@ -245,7 +246,6 @@ footer a:hover {
   position: absolute;
   top: 120;
   padding: 0;
-  /* margin: 0; */
   font-size: 55px; 
   width: 80%;
   background-color: rgba(51, 76, 133, 0.8);
