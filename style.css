@@ -75,6 +75,15 @@ html,body {
     padding:0; margin:0;
 }
 
+.bodyText a {
+  color: black;
+  text-decoration-color: var(--daisy);
+}
+
+.bodyText a:hover {
+  background-color: var(--daisy);
+}
+
 .pageTitle {
     color: var(--ice);
     font-family: 'Jost', sans-serif;
