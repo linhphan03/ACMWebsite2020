@@ -105,6 +105,10 @@ font-family: 'Montserrat', sans-serif;;
   margin-right: 10vw;
 }
 
+.peach a {
+  color: white;
+}
+
 
 .peach h2 {
   color: white;
@@ -120,6 +124,7 @@ font-family: 'Montserrat', sans-serif;;
   background-color: var(--cornflower);
   width: fit-content;
   margin-left: 8vw;
+  color: white;
 }
 
 
@@ -128,6 +133,14 @@ font-family: 'Montserrat', sans-serif;;
   padding: 10px 2vw;
 }
 
+.cornflower h3 {
+  color: white;
+  padding: 2px 5px;
+}
+.cornflower h4 {
+  color: white;
+  padding: 5px 5px;
+}
 .cornflower p {
   color: white;
   padding: 10px 13vw 10px 5vw;
@@ -205,4 +218,60 @@ footer a {
 footer a:hover {
   color:  var(--peach);
   text-decoration: none;
+}
+
+.homeHeader {
+  background-image: url("images/glatfelter.jpg");
+  height: 500; 
+  width: 100%;
+  background-size: cover;
+  text-align: center;
+}
+
+.homeHeader{ animation: changeBg 15s infinite;}
+@keyframes changeBg{
+   0%,100%  {background-image: url("images/glatfelter.jpg");}
+   33% {background-image: url("images/Neller2.jpg");}
+   66% {background-image: url("images/Neller1.jpg");}
+}
+/*  */
+
+.homeTitle {
+  margin: 0 auto;
+  display: flex;
+  min-width: 107px;
+}
+.homeTitle h1 {
+  position: absolute;
+  top: 120;
+  padding: 0;
+  /* margin: 0; */
+  font-size: 55px; 
+  width: 80%;
+  background-color: rgba(51, 76, 133, 0.8);
+}
+
+/* Meet the officer cards */
+.officers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  padding: 10px 0vw 10px 5vw;
+}
+
+.officer img {
+  position: relative;
+  width: 200px;
+  height: auto;
+  padding-bottom: 0;
+}
+
+.officer {
+  padding-bottom: 20px;
+  width: 370px;
+}
+
+.officer p {
+  padding-left: 6px;
+  width: 350px;
 }
