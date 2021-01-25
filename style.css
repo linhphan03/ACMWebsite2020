@@ -1,55 +1,55 @@
 /* Variables */
 :root {
-    /* https://coolors.co/130902-13203f-334c85-e0e8f5-f0f4fa-f48c54-f59664 */
-    --black: #130902;
-    --navy: #13203F;
-    --cornflower: #334C85;
-    --alice-blue: #E0E8F5;
-    --ice: #F0F4FA;
-    --peach: #F48C54;
-    --daisy: #F6A579;
+  /* https://coolors.co/130902-13203f-334c85-e0e8f5-f0f4fa-f48c54-f59664 */
+  --black: #130902;
+  --navy: #13203F;
+  --cornflower: #334C85;
+  --alice-blue: #E0E8F5;
+  --ice: #F0F4FA;
+  --peach: #F48C54;
+  --daisy: #F6A579;
 }
 
 /* Navigation Bar */
 ul.navBar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    width: fit-content;
-    float: right;
-    background-color: var(--navy);
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: fit-content;
+  float: right;
+  background-color: var(--navy);
 }
   
 li.navBar {
-    float: left;
+  float: left;
 }
   
 li.navBar a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: 'Jost', sans-serif;
-    font-weight: 400;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
 }
   
 li.navBar a:hover {
-    background: linear-gradient(to top, var(--cornflower) 50%, var(--navy) 50%) bottom;
-    background-size: 100% 200%;
-    transition: .2s ease-in-out;
+  background: linear-gradient(to top, var(--cornflower) 50%, var(--navy) 50%) bottom;
+  background-size: 100% 200%;
+  transition: .2s ease-in-out;
 }
 
 /* Header */
 .headerPhoto {
-    width: 100%;
-    height: 200;
-    object-fit: cover;
-    position: absolute;
-    padding: 0%;
-    z-index: -1;
-    filter: opacity(80%);
+  width: 100%;
+  height: 200;
+  object-fit: cover;
+  position: absolute;
+  padding: 0%;
+  z-index: -1;
+  filter: opacity(80%);
 }
 .header {
   height: 200px;
@@ -72,7 +72,7 @@ li.navBar a:hover {
 }
 
 html,body {
-    padding:0; margin:0;
+  padding:0; margin:0;
 }
 
 .bodyText a {
@@ -85,12 +85,12 @@ html,body {
 }
 
 .pageTitle {
-    color: var(--ice);
-    font-family: 'Jost', sans-serif;
-    font-weight: 800;
-    padding-top: 130px;
-    font-size: 45px;
-    text-shadow: 1px 1px 1px var(--cornflower);
+  color: var(--ice);
+  font-family: 'Jost', sans-serif;
+  font-weight: 800;
+  padding-top: 130px;
+  font-size: 45px;
+  text-shadow: 1px 1px 1px var(--cornflower);
 }
 
 h2 {
@@ -101,11 +101,11 @@ h2 {
 }
 
 p, body {
-font-family: 'Montserrat', sans-serif;;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .bodyText p {
-    padding: 10px 13vw;
+  padding: 10px 13vw;
 }
 
 .peach {
@@ -117,7 +117,6 @@ font-family: 'Montserrat', sans-serif;;
 .peach a {
   color: white;
 }
-
 
 .peach h2 {
   color: white;
@@ -136,7 +135,6 @@ font-family: 'Montserrat', sans-serif;;
   color: white;
 }
 
-
 .cornflower h2 {
   color: white;
   padding: 10px 2vw;
@@ -146,10 +144,12 @@ font-family: 'Montserrat', sans-serif;;
   color: white;
   padding: 2px 5px;
 }
+
 .cornflower h4 {
   color: white;
   padding: 5px 5px;
 }
+
 .cornflower p {
   color: white;
   padding: 10px 13vw 10px 5vw;
@@ -170,21 +170,23 @@ font-family: 'Montserrat', sans-serif;;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
 }
+
 .slides::-webkit-scrollbar {
   width: 10px;
   height: 15px;
 }
+
 .slides::-webkit-scrollbar-thumb {
   background: var(--peach);
-  /* box-shadow: -1px 0px 1px 0px white; */
-  /* scrollbar-shadow-color: violet; */
   box-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
   border-radius: 25px;
 }
+
 .slides::-webkit-scrollbar-track {
   background: var(--cornflower);
   border-radius: 25px;
 }
+
 .slides > div {
   scroll-snap-align: start;
   flex-shrink: 0;
@@ -238,19 +240,28 @@ footer a:hover {
   text-align: center;
 }
 
-.homeHeader{ animation: changeBg 15s infinite;}
-@keyframes changeBg{
-   0%,100%  {background-image: url("images/glatfelter.jpg");}
-   33% {background-image: url("images/Neller2.jpg");}
-   66% {background-image: url("images/Neller1.jpg");}
+.homeHeader {
+ animation: changeBg 15s infinite;
 }
-/*  */
+
+@keyframes changeBg {
+   0%,100%  {
+    background-image: url("images/glatfelter.jpg");
+  }
+   33% {
+    background-image: url("images/Neller2.jpg");
+  }
+   66% {
+    background-image: url("images/Neller1.jpg");
+  }
+}
 
 .homeTitle {
   margin: 0 auto;
   display: flex;
   min-width: 107px;
 }
+
 .homeTitle h1 {
   position: absolute;
   top: 120;
