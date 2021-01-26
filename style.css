@@ -232,7 +232,7 @@ footer a:hover {
 }
 
 .homeHeader {
-  background-image: url("images/glatfelter.jpg");
+  background-image: url("/~eppsna01/ACMWebsite2020/images/glatfelter.jpg");
   min-height: 500; 
   height: fit-content;
   width: 100%;
@@ -246,13 +246,13 @@ footer a:hover {
 
 @keyframes changeBg {
    0%,100%  {
-    background-image: url("images/glatfelter.jpg");
+    background-image: url("/~eppsna01/ACMWebsite2020/images/glatfelter.jpg");
   }
    33% {
-    background-image: url("images/Neller2.jpg");
+    background-image: url("/~eppsna01/ACMWebsite2020/images/Neller2.jpg");
   }
    66% {
-    background-image: url("images/Neller1.jpg");
+    background-image: url("/~eppsna01/ACMWebsite2020/images/Neller1.jpg");
   }
 }
 
