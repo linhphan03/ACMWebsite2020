@@ -275,7 +275,7 @@ footer a:hover {
 .officers {
   display: flex;
   flex-wrap: wrap;
-  justify-content: left;
+  justify-content: space-evenly;
   padding: 10px 0vw 10px 5vw;
 }
 
@@ -284,6 +284,7 @@ footer a:hover {
   width: 200px;
   height: auto;
   padding-bottom: 0;
+  filter: drop-shadow(0 0 0.75rem var(--navy));
 }
 
 .officer {
