@@ -62,13 +62,17 @@ li.navBar a:hover {
   margin-left: 30px;
   border-radius: 50px;
   float: left;
-  background-color: var(--navy);
+  background-color: var(--navy); 
+  background-image: url("images/ACM_logo.jpg");
 }
 
 .logoPicture {
   height: 100px;
-  width: auto;
+  width: 100px;
   padding-left: 30px;
+  position: absolute;
+  z-index: 3000;
+  opacity: 100%;
 }
 
 html,body {
@@ -210,6 +214,7 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
+  
 }
 
 footer {
@@ -232,7 +237,7 @@ footer a:hover {
 }
 
 .homeHeader {
-  background-image: url("/~eppsna01/ACMWebsite2020/images/glatfelter.jpg");
+  background-image: url("images/glatfelter.jpg");
   min-height: 500; 
   height: fit-content;
   width: 100%;
@@ -246,13 +251,13 @@ footer a:hover {
 
 @keyframes changeBg {
    0%,100%  {
-    background-image: url("/~eppsna01/ACMWebsite2020/images/glatfelter.jpg");
+    background-image: url("images/glatfelter.jpg");
   }
    33% {
-    background-image: url("/~eppsna01/ACMWebsite2020/images/Neller2.jpg");
+    background-image: url("images/Neller2.jpg");
   }
    66% {
-    background-image: url("/~eppsna01/ACMWebsite2020/images/Neller1.jpg");
+    background-image: url("images/Neller1.jpg");
   }
 }
 
@@ -276,7 +281,7 @@ footer a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  padding: 10px 0vw 10px 5vw;
+  padding: 10px 1vw;
 }
 
 .officer img {
@@ -289,7 +294,6 @@ footer a:hover {
 
 .officer {
   padding-bottom: 20px;
-  width: 370px;
 }
 
 .officer p {
