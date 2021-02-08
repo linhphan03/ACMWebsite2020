@@ -1,0 +1,112 @@
+/* Variables */
+:root {
+    /* https://coolors.co/130902-13203f-334c85-e0e8f5-f0f4fa-f48c54-f59664 */
+    --black: #130902;
+    --navy: #13203F;
+    --cornflower: #334C85;
+    --alice-blue: #E0E8F5;
+    --ice: #F0F4FA;
+    --peach: #F48C54;
+    --daisy: #F6A579;
+  }
+
+
+@media only screen and (max-width: 600px) {
+
+    .menu-content {
+        position: absolute;
+        height: fit-content;
+        width: 125px;
+        padding-right: 70px;
+        top: 70px;
+    }
+    .mobile-menu {
+        display: block;
+        position: relative;
+    }
+    .menu {
+        width: min-content;
+        height: min-content;
+        color: var(--peach);
+        text-shadow: 1px 1px 1px var(--navy);
+        
+        float: right;
+        margin-right: 20px;
+    }
+
+    
+    /* Navigation Bar */
+    .mobile-menu ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+ul.navBar {
+    list-style-type: none;
+    margin: 0;
+    width: 125px;
+    height: fit-content;
+    text-align: center;
+    background-color: var(--navy);
+  }
+
+  li.navBar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 2px;
+    text-decoration: none;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    width: 123px;
+
+  }
+
+  label.mobile-menu {
+      padding: 0px;
+      margin: 0px;
+  }
+
+    .mobile-menu a {
+        display:block;
+        padding: 0px;
+        font-size: 15px;
+        text-decoration: none;
+    }
+
+    .menu label {
+        width: 55px;
+        height: 55px;
+        font-weight: 800;
+        font-size: 50px;
+        display: block;
+        float: right;
+        padding: 10px 0 10px 50px;
+        /* background-color: var(--navy);s */
+    }
+
+    input#menu {
+        display: none;
+    }
+
+    .menu-content {
+        max-height: 0;
+        overflow: hidden;
+        padding: 0px;
+    }
+
+    input:checked ~ .menu-content {
+        max-height: 100%;
+    }
+
+    footer {
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+        align-items: center;
+    }
+    footer a {
+        padding: 15px 15px;
+    }
+
+  }
