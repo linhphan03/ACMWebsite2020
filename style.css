@@ -56,6 +56,10 @@ li.navBar a:hover {
   text-align: center;
 }
 
+.mobile-menu {
+  display: none;
+}
+
 .logo {
   height: 100px;
   width: 100px;
