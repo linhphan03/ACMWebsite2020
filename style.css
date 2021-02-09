@@ -116,6 +116,19 @@ p, body {
   padding: 10px 13vw;
 }
 
+.join h2{
+  font-size: 40px;
+  margin-bottom: 0px;
+  padding-bottom: -10px;
+  text-decoration: underline;
+  text-decoration-color: var(--daisy);
+
+}
+
+.join p{
+  margin-top: 0px;
+}
+
 .peach {
   background-color: var(--peach);
   width: fit-content;
@@ -138,8 +151,9 @@ p, body {
 
 .cornflower {
   background-color: var(--cornflower);
+  min-width: 92%;
   width: fit-content;
-  margin-left: 8vw;
+  margin-left: 8%;
   color: white;
 }
 
