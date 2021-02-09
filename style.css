@@ -298,9 +298,11 @@ footer a:hover {
 
 .officer {
   padding-bottom: 20px;
+  width: min-content;
 }
 
 .officer p {
   padding-left: 6px;
-  width: 350px;
+  width: 250px;
+  padding-right: 3px;
 }
