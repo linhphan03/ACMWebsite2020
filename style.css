@@ -132,39 +132,6 @@ p, body {
   margin-top: 0px;
 }
 
-.insta {
-  display: flex;
-  padding: 40px 0px;
-  margin: 0, auto;
-  max-width: 920px;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  margin: 0, auto;
-}
-
-.insta h2{
-  font-size: 50px;
-  margin-bottom: 0px;
-  padding: 0px;
-  padding-bottom: 10px;
-  text-decoration: underline;
-  text-decoration-color: var(--daisy);
-}
-
-.insta h2 a:hover {
-  background-color: var(--daisy);
-}
-
-.instaLogo, .insta img {
-  height: 280px;
-  width: 280px;
-  position: relative;
-}
-
-.insta  a:hover {
-  background-color: transparent;
-}
-
 .peach {
   background-color: var(--peach);
   width: fit-content;
@@ -359,4 +326,37 @@ footer a:hover {
   padding-left: 6px;
   width: 250px;
   padding-right: 3px;
+}
+
+.insta {
+  display: flex;
+  padding: 40px 0px;
+  margin: 0, auto;
+  max-width: 920px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.insta h2{
+  font-size: 50px;
+  margin-bottom: 0px;
+  padding: 0px;
+  padding-bottom: 10px;
+  text-decoration: underline;
+  text-decoration-color: var(--daisy);
+}
+
+.insta h2 a:hover {
+  background-color: var(--daisy);
+}
+
+.instaLogo, .insta img {
+  height: 280px;
+  width: 280px;
+  position: relative;
+}
+
+.insta  a:hover {
+  background-color: transparent;
 }
