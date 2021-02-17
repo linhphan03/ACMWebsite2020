@@ -112,7 +112,7 @@ h2 {
 
 p, body {
   font-family: 'Montserrat', sans-serif;
-  font-size: 23px;
+  font-size: 21px;
 }
 
 .bodyText p {
@@ -359,4 +359,11 @@ footer a:hover {
 
 .insta  a:hover {
   background-color: transparent;
+}
+
+
+.eventsBannerHome {
+  position: relative;
+  width: 100%;
+  height: auto;
 }
