@@ -186,18 +186,27 @@ p, body {
 
 /* Carousel */
 .slider {
-  width: 80%;
+  width: 76%;
+  height: 63%;
   text-align: center;
   overflow: hidden;
-  padding: 15px 10%;
+  padding: 0px 10%;
+  background-color: var(--peach);
 }
 
 .slides {
+  height: 100%;
   display: flex;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
+  background-color: var(--peach);
+}
+
+.slides img {
+  object-fit: scale-down;
+  background-color: var(--peach);
 }
 
 .slides::-webkit-scrollbar {
@@ -206,7 +215,7 @@ p, body {
 }
 
 .slides::-webkit-scrollbar-thumb {
-  background: var(--peach);
+  background: var(--daisy);
   box-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
   border-radius: 25px;
 }
@@ -220,7 +229,7 @@ p, body {
   scroll-snap-align: start;
   flex-shrink: 0;
   width: 100%;
-  height: 300px;
+  height: 420px;
   background: var(--ice);
   transform-origin: center center;
   transform: scale(1);
@@ -366,4 +375,30 @@ footer a:hover {
   position: relative;
   width: 100%;
   height: auto;
+}
+
+.oppBanner {
+  /* padding: 10px 13vw; */
+  margin: 10px auto;
+  width: 80%;
+  height: auto;
+  position: relative;
+}
+
+.oppButtons {
+  /* padding: 10px 13vw; */
+  margin: 10px auto;
+  width: 80%;
+  display: flex;
+}
+
+.oppButtons img {
+  width: fit-content;
+  height: auto;
+  position: relative;
+}
+
+.hiddenPeach {
+  color: var(--peach);
+  /* visibility: hidden; */
 }
