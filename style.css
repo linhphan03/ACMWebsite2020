@@ -235,7 +235,6 @@ p, body {
   scroll-snap-align: start;
   flex-shrink: 0;
   width: 100%;
-  height: 420px;
   background: var(--ice);
   transform-origin: center center;
   transform: scale(1);
