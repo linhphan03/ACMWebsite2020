@@ -110,6 +110,15 @@ h2 {
   margin-bottom: 0px;
 }
 
+h3 {
+  color: var(--cornflower);
+  font-family: 'Jost', sans-serif;
+  font-weight: 800;
+  padding: 8px 10vw;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
 p, body {
   font-family: 'Montserrat', sans-serif;
   font-size: 21px;
@@ -188,6 +197,10 @@ p, body {
 .cornflower p {
   color: white;
   padding: 10px 13vw 10px 5vw;
+}
+
+.slideshowEmbed {
+  margin: auto;
 }
 
 /* Carousel */
