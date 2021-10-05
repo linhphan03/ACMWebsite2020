@@ -92,6 +92,12 @@ html,body {
   background-color: var(--daisy);
 }
 
+em {
+  background-color: var(--alice-blue);
+  font-style: normal;
+  font-weight: 800;
+}
+
 .pageTitle {
   color: var(--ice);
   font-family: 'Jost', sans-serif;
@@ -118,6 +124,18 @@ h3 {
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
+h4 {
+  font-weight: 800;
+  padding: 4px 5vw;
+  padding-bottom: 0px;
+  margin: 0px;
+}
+
+ul {
+  margin-left: 50px;
+  margin-top: 0;
+  margin-bottom: ;
+}
 
 p, body {
   font-family: 'Montserrat', sans-serif;
@@ -127,6 +145,12 @@ p, body {
 .bodyText p {
   padding: 10px 13vw;
 }
+
+.bodyText h4, ul, ol  {
+  padding: 10px 13vw;
+}
+
+
 
 .join h2{
   font-size: 40px;
