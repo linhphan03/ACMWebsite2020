@@ -157,6 +157,7 @@ p, body {
   margin-bottom: 0px;
   padding-bottom: -10px;
   text-decoration: underline;
+  text-decoration: ;
   text-decoration-color: var(--daisy);
 
 }
