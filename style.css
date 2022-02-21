@@ -317,6 +317,12 @@ footer a:hover {
   height: fit-content;
   width: 100%;
   background-size: cover;
+  object-position: center;
+  background-position-y: 50%;
+
+  /* object-fit: cover;
+  z-index: -1;*/
+  /* position: absolute;  */
   text-align: center;
 }
 
@@ -329,7 +335,8 @@ footer a:hover {
     background-image: url("images/gallery/FirstMeeting21a.jpg");
   }
    33% {
-    background-image: url("images/gallery/YorkHackathon2019.jpg");
+    background-image: url("images/gallery/YorkHackathon2019.jpeg");
+    background-position-y: 30%;
   }
    66% {
     background-image: url("images/gallery/profPanel.jpg");
