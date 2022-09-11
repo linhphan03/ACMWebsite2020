@@ -41,31 +41,31 @@
         padding: 0;
     }
 
-ul.navBar {
-    list-style-type: none;
-    margin: 0;
-    width: 125px;
-    height: fit-content;
-    text-align: center;
-    background-color: var(--navy);
-  }
+    ul.navBar {
+        list-style-type: none;
+        margin: 0;
+        width: 125px;
+        height: fit-content;
+        text-align: center;
+        background-color: var(--navy);
+    }
 
-  li.navBar a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 2px;
-    text-decoration: none;
-    font-family: 'Jost', sans-serif;
-    font-weight: 400;
-    width: 123px;
+    li.navBar a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 2px;
+        text-decoration: none;
+        font-family: 'Jost', sans-serif;
+        font-weight: 400;
+        width: 123px;
 
-  }
+    }
 
-  label.mobile-menu {
-      padding: 0px;
-      margin: 0px;
-  }
+    label.mobile-menu {
+        padding: 0px;
+        margin: 0px;
+    }
 
     .mobile-menu a {
         display:block;
@@ -117,5 +117,13 @@ ul.navBar {
         font-size: 40px;
         left: 10vw;
         margin-top: 0px;
+    }
+
+    .bannerVertical{
+        visibility: visible;
+    }
+
+    .bannerHorizontal{
+        visibility: hidden;
     }
   }
