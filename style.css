@@ -8,6 +8,7 @@
   --ice: #F0F4FA;
   --peach: #F48C54;
   --daisy: #F6A579;
+  --pink: #EBA299;
 }
 
 /* Navigation Bar */
@@ -165,7 +166,7 @@ p, body {
 }
 
 .peach {
-  background-color: #EBA299;
+  background-color: var(--pink);
   width: fit-content;
   margin-right: 10vw;
 }
@@ -233,7 +234,7 @@ p, body {
   text-align: center;
   overflow: hidden;
   padding: 0px 10%;
-  background-color: #EBA299;
+  background-color: var(--pink);
 }
 
 .slides {
@@ -243,12 +244,12 @@ p, body {
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
-  background-color: #EBA299;
+  background-color: var(--pink);
 }
 
 .slides img {
   object-fit: scale-down;
-  background-color: #EBA299;
+  background-color: var(--pink);
 }
 
 .slides::-webkit-scrollbar {
@@ -307,7 +308,7 @@ footer a {
 }
 
 footer a:hover {
-  color:  #EBA299;
+  color:  var(--pink);
   text-decoration: none;
 }
 
@@ -446,7 +447,7 @@ footer a:hover {
 }
 
 .hiddenPeach {
-  color: #EBA299;
+  color: var(--pink);
   /* visibility: hidden; */
 }
 
