@@ -165,7 +165,7 @@ p, body {
 }
 
 .peach {
-  background-color: var(--peach);
+  background-color: #EBA299;
   width: fit-content;
   margin-right: 10vw;
 }
@@ -233,7 +233,7 @@ p, body {
   text-align: center;
   overflow: hidden;
   padding: 0px 10%;
-  background-color: var(--peach);
+  background-color: #EBA299;
 }
 
 .slides {
@@ -243,12 +243,12 @@ p, body {
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
-  background-color: var(--peach);
+  background-color: #EBA299;
 }
 
 .slides img {
   object-fit: scale-down;
-  background-color: var(--peach);
+  background-color: #EBA299;
 }
 
 .slides::-webkit-scrollbar {
@@ -307,7 +307,7 @@ footer a {
 }
 
 footer a:hover {
-  color:  var(--peach);
+  color:  #EBA299;
   text-decoration: none;
 }
 
@@ -418,7 +418,6 @@ footer a:hover {
   background-color: transparent;
 }
 
-
 .eventsBannerHome {
   position: relative;
   width: 100%;
@@ -447,7 +446,7 @@ footer a:hover {
 }
 
 .hiddenPeach {
-  color: var(--peach);
+  color: #EBA299;
   /* visibility: hidden; */
 }
 
